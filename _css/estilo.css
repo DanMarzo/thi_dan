@@ -24,7 +24,6 @@
 }
 #id-ul-pai-li
 {
-    background-color: aqua;
     height: 50px;
     width: 200px;    
     display: flex;
@@ -37,8 +36,17 @@
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(161, 59, 60);
     background-color: 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.class-li a
+{   
+    display: block;
+    width: 90px;
+    height: 40px;
 }
 .class-li:not(:last-child)
 {
