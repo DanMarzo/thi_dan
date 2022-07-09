@@ -1,10 +1,52 @@
 *,li,a{font-family: sans-serif;padding: 0;margin: 0;text-decoration: none;list-style: none;color: white;}
 /* esse body deve ser excluido novamente */
+#id-div-container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(161, 59, 60);
+    overflow-y: auto;
+}
+.class-img-logo
+{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+}
 #id-section-bloco-menu
 {
-    background-color: rgba(0, 0, 0, 0.281);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.219);
+    width: 100vw;
+    height: 50px;
+    position: sticky;
 }
-#id-article-body
+#id-ul-pai-li
 {
+    background-color: aqua;
+    height: 50px;
+    width: 200px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.class-li
+{
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+    background-color: 50px;
+}
+.class-li:not(:last-child)
+{
+    margin-right: 10px;
+}
+/* ABAIXO SEGUE CONFIG DO ARTICLE */
+
+#id-article-body
+{   
     background-color: rgb(0, 0, 61);
 }
