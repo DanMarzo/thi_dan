@@ -1,0 +1,10 @@
+*,li,a{font-family: sans-serif;padding: 0;margin: 0;text-decoration: none;list-style: none;color: white;}
+/* esse body deve ser excluido novamente */
+#id-section-bloco-menu
+{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+#id-article-body
+{
+    background-color: rgb(0, 0, 61);
+}
