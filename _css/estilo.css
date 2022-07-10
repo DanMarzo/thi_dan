@@ -4,6 +4,8 @@
 {
     width: 100vw;
     height: 100vh;
+    overflow-x:hidden;
+    z-index: 9999;
     background-color: rgb(161, 59, 60);
     overflow-y: auto;
 }
@@ -30,7 +32,7 @@
     justify-content: center;
     align-items: center;
 }
-.class-li
+.class-li,#id-button-aparece
 {
     width: 90px;
     height: 40px;
@@ -40,7 +42,14 @@
     background-color: 50px;
     font-size: 18px;
     letter-spacing: 2px;
+    font-weight: 500;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#id-button-aparece
+{
+    cursor: pointer;
+    border: none;
+    background: none;
 }
 #id-a-dif /*para não juntar do "Noticias com entrar"*/
 {   
@@ -64,7 +73,12 @@
     display: flex;
     justify-self: start;
     flex-direction: column;
-    
+    position: absolute;
+    right: -300px;
+}
+#id-form-login-hidden.active
+{
+    right: 5px;
 }
 .class-span-nao-cadastrado, .class-span-nao-cadastrado em,.class-a-recupera-senha
 {
