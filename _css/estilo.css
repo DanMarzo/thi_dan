@@ -74,10 +74,12 @@
     justify-self: start;
     flex-direction: column;
     position: absolute;
+    transition: .6s;
     right: -300px;
 }
 #id-form-login-hidden.active
 {
+    transition: .6s;
     right: 5px;
 }
 .class-span-nao-cadastrado, .class-span-nao-cadastrado em,.class-a-recupera-senha
