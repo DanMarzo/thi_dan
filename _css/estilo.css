@@ -61,8 +61,10 @@
 #id-form-login-hidden
 {
     width: 300px;
-    display: grid;
-    grid-template-columns:120px 160px ;
+    display: flex;
+    justify-self: start;
+    flex-direction: column;
+    
 }
 .class-span-nao-cadastrado, .class-span-nao-cadastrado em,.class-a-recupera-senha
 {
@@ -82,6 +84,16 @@
     height: 20px;
     line-height: 20px;
     font-family:'Times New Roman', Times, serif ;
+}
+/* estilo dos input & labels*/
+.class-label-hidden
+{
+    font-size: 18px;
+    text-align: left;
+}
+#id-input-email,#id-input-password
+{
+    height: 25px;
 }
 /* ABAIXO SEGUE CONFIG DO ARTICLE */
 
